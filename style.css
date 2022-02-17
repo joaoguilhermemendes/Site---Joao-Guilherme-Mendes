@@ -197,6 +197,8 @@ section > p {
     text-align: center;
 }
 
+
+
 .div1 { grid-area: 1 / 1 / 2 / 3; background-color: #ff5950;}
 .div2 { grid-area: 1 / 3 / 2 / 5; background-color: #ffffff;}
 .div3 { grid-area: 2 / 1 / 3 / 5; background-color: #82d7ff;}
@@ -212,6 +214,12 @@ section > p {
 .div5:hover {background-color: #253449;}
 .div6:hover {background-color: #253449;}
 .div7:hover {background-color: #253449;}
+
+.center{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
 
 #container_blog{
     background-image: url(imagens/background2-code.jpg);
@@ -275,6 +283,12 @@ section > p {
     grid-column-gap: 15px;
     grid-row-gap: 15px;
 }
+
+#card_skills_grid img {
+    position: relative;
+top: 50%;
+transform: translateY(-50%); 
+}
     
 .div_html { grid-area: 1 / 1 / 2 / 2; background-color: #791109;}
 .div_html_info { grid-area: 1 / 2 / 2 / 4; border: 3px #791109 solid;}
@@ -335,6 +349,7 @@ border-radius: 3px;
 .proj:hover {
     background-color: #4f9dfc;
     color: #ffffff;
+    cursor: crosshair;
 }
 
 h5 {
