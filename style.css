@@ -432,8 +432,8 @@ footer {
     #about_complete {
         display: block;
         text-align: center;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 15%;
+        margin-right: 15%;
         padding-bottom: 50px;
     }
 
@@ -473,6 +473,12 @@ footer {
     .div_c_info { grid-area: 10 / 1 / 11 / 2; border: 3px #21a02c solid; margin-bottom: 20px;}
 
     /* Section 4 */
+    #blog_card {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    /* Section 5 */
     #card_projects_grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
