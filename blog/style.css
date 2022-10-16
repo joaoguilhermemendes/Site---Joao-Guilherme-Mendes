@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+@media (min-width: 800px) { 
+    body {
+        background-color: #ffffff;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    
+    #main {
+        width:800px;
+        margin: auto;
+    }
+    
+    h1 {
+        font-family: 'Ruda', sans-serif;
+        font-size: 38.4px;
+        line-height: 44.2px;
+        margin: 25px 50px 20px 40px;
+    }
+    
+    p {
+        font-family: 'Roboto Slab', serif;
+        font-style: italic;
+        font-size: 16px;
+        color: #333333;
+        margin: 10px 50px 20px 40px;
+    }
+    
+    nav > ul{
+        display: flex;
+        float: right;
+        margin: auto;
+        margin-right: 5%;
+    }
+    
+    nav > ul > li {
+        margin: 10px;
+        float: left;
+        display: flex;
+    }
+    
+    nav > ul > li > a {
+        text-decoration: none;
+        font-family: 'Roboto Slab';
+        font-size: 16px;
+        color: #333333;
+        text-decoration: underline 8px white;
+    }
+    
+    nav > ul > li > a:hover {
+        text-decoration: underline 8px rgb(209, 208, 208);
+    }
+
+
+    #currently_section {
+        text-decoration: underline 8px #393333;
+    }
+
+    #hr_nav{
+        width: 90%;
+        height: 3px;
+        background-color: #CECECE;
+        border: none;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    h2 {
+        font-family: 'Ruda';
+        font-size: 38.4px;
+        color: #333333;
+        margin: 20px 40px;
+    }
+    
+    h3 {
+        font-family: 'Ruda';
+        font-size: 22.464px;
+        color: #333333;
+        margin: 20px 40px;
+    }
+    
+    hr {
+        width: 90%;
+        margin: auto;
+    }
+    
+    ul{
+        margin: 25px 70px;
+        margin-right: 5%;
+    }
+    
+    ul > li, a {
+        font-size: 19.2px;
+        font-family: 'Roboto Slab';
+        color: #333333;
+        text-decoration: none;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 800px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    #main {
+        width:90%;
+        margin: auto;
+    }
+    
+    h1 {
+        font-family: 'Ruda', sans-serif;
+        font-size: 38.4px;
+        line-height: 44.2px;
+        margin: 25px 30px 20px 30px;
+    }
+    
+    p {
+        font-family: 'Roboto Slab', serif;
+        font-style: italic;
+        font-size: 16px;
+        color: #333333;
+        margin: 10px 30px 20px 30px;
+    }
+    
+    nav > ul{
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+        margin: auto;
+        margin-right: 5%;
+    }
+    
+    nav > ul > li {
+        margin: 8px;
+        display: flex;
+        margin-left: 35px;
+    }
+    
+    nav > ul > li > a {
+        text-decoration: none;
+        font-family: 'Roboto Slab';
+        font-size: 16px;
+        color: #333333;
+        text-decoration: underline 8px rgb(255, 255, 255);
+
+    }
+
+    nav > ul > li > a:hover {
+        text-decoration: underline 8px rgb(209, 208, 208);
+    }
+    
+    #hr_nav{
+        width: 90%;
+        height: 3px;
+        background-color: #CECECE;
+        border: none;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    h2 {
+        font-family: 'Ruda';
+        font-size: 38.4px;
+        color: #333333;
+        margin: 20px 40px;
+    }
+    
+    h3 {
+        font-family: 'Ruda';
+        font-size: 22.464px;
+        color: #333333;
+        margin: 20px 40px;
+    }
+    
+    hr {
+        width: 90%;
+        margin: auto;
+    }
+    
+    ul{
+        margin: 25px 70px;
+        margin-right: 5%;
+    }
+    
+    ul > li, a {
+        font-size: 19.2px;
+        font-family: 'Roboto Slab';
+        color: #333333;
+        text-decoration: none;
+        line-height: 1.5;
+    }
+}
